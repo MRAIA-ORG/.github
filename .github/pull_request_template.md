@@ -4,6 +4,8 @@
 
 ## Linked issue
 
+<!-- The ticket this PR closes. Never a lane issue: this line closes it on merge. -->
+
 Closes MRAIA-ORG/linkja-workspace#
 
 ## How it was verified
@@ -28,6 +30,6 @@ Lane: <#N in linkja-workspace, MRAIA-ORG/linkja-workspace#N elsewhere>. <its nex
 In a linkja-workspace PR, write the lane as `#<N>`.
 In any other repo, write it as `MRAIA-ORG/linkja-workspace#<N>`.
 To close the lane, a linkja-workspace PR has this exact line, with nothing after it: `Lane: #<N>. finished`
-A PR in another repo cannot close a lane. If it finishes the lane, say so in its notes. The handoff pass then writes the close line in its own linkja-workspace PR.
+A PR in another repo cannot close a lane. If it finishes the lane, write `Lane: MRAIA-ORG/linkja-workspace#<N>. finished`. The handoff pass lists that line for the owner, who closes the lane.
 What the next session needs: decisions and why, traps that cost time, what was deliberately not done.
 The handoff pass copies this into linkja-workspace's `docs/HANDOFF.md` after merge. Lanes do not edit that file. -->
