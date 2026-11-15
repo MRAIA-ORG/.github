@@ -22,8 +22,9 @@ Round 1:
 
 ## Handoff notes
 
-Lane: #<lane issue>. <its next step>
+Lane: <lane issue>. <its next step>
 
-<!-- To close the lane, write exactly `Lane: #<N>. finished` with nothing after it.
+<!-- Lane issues live in linkja-workspace. In a linkja-workspace PR write `Lane: #<N>.`, in any other repo `Lane: MRAIA-ORG/linkja-workspace#<N>.`
+To close the lane, write exactly `Lane: #<N>. finished` with nothing after it, in a linkja-workspace PR.
 What the next session needs: decisions and why, traps that cost time, what was deliberately not done.
-The handoff pass copies this into `docs/HANDOFF.md` after merge. Lanes do not edit that file. -->
+The handoff pass copies this into linkja-workspace's `docs/HANDOFF.md` after merge. Lanes do not edit that file. -->
